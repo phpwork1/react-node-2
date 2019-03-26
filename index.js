@@ -10,6 +10,7 @@ require('./services/passport');
 const app = express();
 
 //body parser make payload available in req.body within express post request
+//some comments
 app.use(bodyParser.json());
 //activate cookie session
 app.use(
